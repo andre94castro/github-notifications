@@ -1,0 +1,28 @@
+{
+  "name": "github-notifications",
+  "version": "1.0.0",
+  "description": "GitHub Notifications and Dashboard",
+  "main": "src/index.js",
+  "type": "module",
+  "scripts": {
+    "start": "node src/index.js",
+    "waybar": "node src/ui/waybar.js",
+    "dashboard": "node src/ui/dashboard.js",
+    "lint": "eslint .",
+    "lint:fix": "eslint . --fix",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": ["github", "notifications", "dashboard", "waybar"],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "dotenv": "^16.4.7"
+  },
+  "devDependencies": {
+    "eslint": "^8.57.0",
+    "eslint-config-standard": "^17.1.0",
+    "eslint-plugin-import": "^2.29.1",
+    "eslint-plugin-n": "^16.6.0",
+    "eslint-plugin-promise": "^6.1.1"
+  }
+}
